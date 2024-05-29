@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("./theme.styling.css");
+
+@font-face {
+  font-family: "inter";
+  src: local("inter"),
+    url("../fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype");
+}
+
+body {
+  background-color: #3c3c3b;
+  font-family: inter;
+}
+
+.hero-img {
+  width: 100% !important;
+  background: url("/Hero.png") no-repeat center center;
+  background-size: cover;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #bec4b8 0%, #b6d89d 100%);
+}
+.info {
+  background: url("/Frame 1473.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.dao {
+  background: url("/podcast.png") no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 1439px) {
+  .dao {
+    background-image: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .info {
+    background-image: none;
+  }
+}
+
+.shadow-custom {
+  box-shadow: 5px 7px 31px 0px #2c2c26;
+}
+
+/* styles/globals.css */
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Larger size for larger screens */
+.teambg {
+  background-image: url("/blackbg.svg");
+  background-size: auto 200%;
+  background-position: right 0%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 426px) {
+  .teambg {
+    background-image: none;
+  }
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}

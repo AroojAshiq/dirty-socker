@@ -1,0 +1,35 @@
+/* Button style */
+/* start */
+.btn-primary {
+  @apply bg-[#578FDE] text-white font-bold hover:bg-[#0f6ed4];
+}
+.btn-transparent {
+  @apply bg-transparent border-2 capitalize border-[#ECECEC] hover:bg-[#504948] bg-[#362F2E] hover:border-[#ECECEC] text-white;
+}
+
+.btn-xs {
+  @apply min-w-[120px] max-w-[120px];
+}
+.btn-sm {
+  @apply min-w-[150px] max-w-[150px];
+}
+.btn-md {
+  @apply min-w-[260px] max-w-[260px];
+}
+.btn-lg {
+  @apply w-[200px] h-12 rounded-3xl text-sm font-normal;
+}
+.btn-slg {
+  @apply w-[300px] h-[42px] rounded-[42px] text-sm font-normal;
+}
+.btn-xl {
+  @apply w-[300px] h-12 rounded-[42px] text-sm font-normal;
+}
+.btn-xxl {
+  @apply w-[300px] h-14 rounded-[34px] text-sm font-normal;
+}
+/* end */
+
+.h1-xxl {
+  @apply w-[300px] h-12 rounded-3xl text-sm font-normal;
+}
